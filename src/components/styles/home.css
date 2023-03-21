@@ -1,0 +1,316 @@
+.restaurantsinput {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+    padding-left: 30px;
+  }
+
+  body{
+    box-sizing: border-box;
+  }
+
+.hero{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../../assets/homepageimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+
+
+.account{
+    float:right;
+    margin: 30px 30px;
+}
+
+.createaccount,.login{
+    text-decoration: none;
+    font: normal normal medium 16px/25px Poppins;
+    color: white;
+
+}
+
+.login{
+    margin-right: 20px;
+}
+.createaccount{
+    border: 1px white solid ;
+    padding: 10px
+}
+
+
+
+
+
+.second{
+   position: absolute;
+   top: 25%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+
+
+.logo2{
+    color:red;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid white;
+    border-radius: 50%; 
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    font: normal normal 600 70px/106px Poppins;
+}
+
+.logodiv{
+   display: flex;
+   justify-content: center;
+}
+
+.firstheading{
+    font: normal normal 600 36px/55px Poppins;
+    color: white;
+   
+}
+
+.inputs{
+    display: flex;
+}
+
+.dropdownbutton,.search{
+    background-color: white;
+    color:#636F88;
+    font: normal normal normal 15px/23px Poppins;
+    border-radius: 0;
+    height: 50px;
+}
+
+.search{
+    position: relative;
+    height:49px;
+    margin-left: 15px;
+    padding: 6px 0 0px 0;
+    
+}
+.restaurantsinput{
+    width: 33vw;
+    color:#636F88;
+    font: normal normal normal 15px/23px Poppins;
+    padding-left: 40px;
+}
+
+.icon{
+
+    position: absolute;
+    color:black;
+    margin: 5px 8px;
+}
+
+.secondsection{
+    padding:  50px 100px;
+}
+
+.searches{
+font: normal normal bold 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+}
+.subheading{
+    font: normal normal normal 18px/27px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+}
+
+.foodsearches{
+    padding-top: 30px;
+}
+
+.foodbox{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 20px;
+}
+
+.foodimage{
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.foodheading{
+    padding: 20px;
+}
+
+.foodheading1{
+    font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+}
+.foodsubheding{
+    font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+}
+
+.locationDropdown {
+    height: 50px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+    opacity: 0.7;
+
+    margin-right: 15px;
+    /* margin-bottom: 20px; */
+    float: left;
+  }
+  
+.SearchIcon{
+    position: absolute;
+    left:0;
+}
+
+.lists{
+    color: grey;
+    list-style-type:none;
+    font-size: 15px;
+    /* line-height: 25px; */
+    background-color: white;
+    padding-left: 10px;
+
+padding-bottom: 2px;
+    padding-top: 4px;
+
+
+
+}
+
+
+
+.ListLinks{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+
+.restaurantUl{
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+   min-width: 100%;
+   min-height:200px;
+    top: 48px;
+    left:0px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    margin-bottom:0;
+
+}
+
+/* responsiveness */
+
+@media only screen and (max-width:837px)
+{
+    .logo2{
+        width: 100px;
+        height: 100px;
+        font: normal normal 600 60px/80px Poppins;
+
+    }
+  .account{
+    margin: 20px 10px;
+  }
+
+  .createaccount,.login{
+   font-size: 13px;
+   }
+   
+   .firstheading{
+        margin: 0;
+        font-size: 30px;
+    }
+   .lists a{
+    font-size: 10px;
+   }
+}
+
+@media only screen and (max-width:610px)
+{
+    .logo2{
+        width: 80px;
+        height: 80px;
+        font: normal normal 600 40px/60px Poppins;
+
+    }
+
+    .restaurantsinput::placeholder{
+        font-size: 2vw;
+    }
+    .locationDropdown{
+        width: 200px;
+     }
+     .locationDropdown:first-child{
+         font-size: 2vw;
+      }
+
+      .firstheading{
+        font-size: 25px;
+        margin: 0;
+        
+         }
+
+         .lists a{
+            font-size: 8px;
+           }
+    
+
+}
+
+
+@media only screen and (max-width:610px)
+{
+    .locationDropdown{
+        width: 150px;
+     }
+
+     .account{
+        margin: 20px 10px;
+      }
+    
+      .createaccount,.login{
+       font-size: 8px;
+       }
+
+       .logo2{
+        width: 60px;
+        height: 60px;
+        font: normal normal 600 30px/40px Poppins;
+
+    }
+
+    .firstheading{
+        font-size: 15px;
+        margin: 0;
+        
+         }
+
+}

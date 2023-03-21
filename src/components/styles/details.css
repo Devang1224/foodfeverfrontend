@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.divHeader nav{
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    padding: 10px 50px 48px 2px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.logo1{ 
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    border-radius: 50% 50%;
+    margin-left: 15px;
+     
+    width:48px;
+    height: 48px;
+
+}
+
+.login,.create{
+    text-decoration: none;
+    color: white;
+    margin: 20px
+}
+
+
+
+.create{
+    outline: 1px solid white;
+    outline-offset: 10px;
+}
+
+.ImageContainer{
+
+   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 25vw;
+    overflow: hidden;
+    /* background-size: contain; */
+}
+
+.ImageContainer img{
+    position: absolute;
+     width: 95%;
+     height: 100%;
+     border-radius: 10px;
+
+     margin-top: 20px;
+
+}
+
+.ImageContainer .imageGallery{
+    position: absolute;
+    top: 85%;
+    right: 6%;
+    background-color: rgba(251, 250, 250, 0.902);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.ImageContainer .imageGallery:hover{
+
+     background-color: rgba(168, 166, 166, 0.926); 
+
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+.aboutheading{
+    color: #192F60;
+    font: normal normal 600 22px/33px Poppins;
+    padding: 10px;
+
+
+}
+
+.cuisine{
+
+    color: #192F60;
+    font: normal normal 600 18px/27px Poppins;
+    padding: 10px;
+
+
+}
+
+.cuisinelist{
+
+    color: #192F60;
+    font: normal normal normal 16px/30px Poppins;
+
+}
+
+
+.avgcost{
+    color: #192F60;
+    font: normal normal 600 18px/27px Poppins;
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.cost{
+    color: #192F60;
+    font: normal normal normal 16px/30px Poppins;
+    padding-left: 10px;
+}
+
+.phno{
+    font: normal normal normal 18px/27px Poppins;
+    color: #192F60;
+    padding: 10px;
+    padding-bottom: 2px;
+
+    
+}
+
+.no{
+    font: normal normal normal 15px/27px Poppins;
+     color: #F67082;
+     padding-left: 10px;
+
+}
+
+.hname{
+    font: normal normal  600px 18px/27px Poppins;
+    color: #192F60;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.address{
+    
+    font: normal normal normal 16px/25px Poppins;
+    color: #636F88;
+    padding-left: 10px;
+
+}
+
+.iconBox{
+    padding:5px;
+}
+
+.typeoffoodIcon
+{
+    width:25px;
+    height:25px;
+    
+
+}
+.dishName{
+    
+   
+    text-align: left;
+    font-family: 'Poppins';
+    font-size:30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #292C40;
+    opacity: 1;
+    padding:5px;
+}
+
+.dishPrice{
+    padding-left:5px;
+    font-family: 'Poppins';
+    font-size:20px;
+    font-weight: 300;
+    color: #292C40;
+}
+.dishDescription
+{
+    padding-left:5px;
+    font-family: 'Poppins';
+    font-size:15px;
+    font-weight: 300;
+letter-spacing: 0px;
+color: #696B78;
+padding-bottom:5px;
+}
+
+.menuContent{
+display: flex;
+
+}
+
+.dishImage{
+    top: 284px;
+    left: 862px;
+    width: 92px;
+    height: 92px;
+    /* UI Properties */
+    background: #192F60 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.addButton{
+    position: absolute;
+    left:20%;
+    top:50%;
+    text-align: center;
+
+}
+
+.addButton-primary{
+
+box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.react-tabs__tab {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    border: none;
+}
+
+.react-tabs__tab--selected {
+    border: none;
+    border-bottom: solid 3px #ce0505;
+}
