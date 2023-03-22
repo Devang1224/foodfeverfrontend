@@ -4,6 +4,7 @@ import '../styles/filter.css'
 import SearchResult from '../Filters/searchResult'
 
 import queryString from 'query-string'
+import { CircularProgress } from '@material-ui/core'
 
 
 
@@ -152,7 +153,8 @@ const meal=queryString.parse(window.location.search).mealType
 
       <div className="cards">
 
-        {searchResult}
+        {searchResult?searchResult:(<div className='Loader2'> <CircularProgress /><br/>
+        Loading </div>)}
 
 
          <div className="pagination">

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Mealtype from './mealtype'
 import '../styles/home.css'
+import { CircularProgress } from '@material-ui/core'
 
 
 export default class  QuickSearch extends Component {
@@ -42,7 +43,8 @@ export default class  QuickSearch extends Component {
       <div className="container-fluid foodsearches">
 
             <div className="row">
-               {mealtypes}
+               {mealtypes?mealtypes:(<div className='Loader'> <CircularProgress /><br/>
+        Loading </div>)}
             </div>
       </div>
   </div>
